@@ -1,0 +1,352 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body{
+    background-color: rgba(202, 202, 202, .3);
+}
+
+h1 {
+    margin-bottom:-15px;
+}
+
+.select {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 10px;
+    right: 20px;
+}
+
+.wrapper ul li{
+    width: 150px;
+    list-style: none;
+    height: 20px;
+    font-size: 15px;
+    line-height: 20px;
+    cursor: pointer;
+    background-color: black;
+}
+
+.wrapper ul li:hover {
+    background-color: #111111;
+}
+
+.wrapper ul ul {
+    display: none;
+}
+
+.wrapper ul li:hover ul {
+    display: block;
+}
+
+.wrapper ul ul ul {
+    margin-left: -150px;
+}
+
+.menu{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    background-color: black;
+    opacity: .7;
+    color: white;
+    z-index: 1;
+}
+
+
+.gradient{
+    margin: 0 0 20px 0;
+    background: url("images/IMG_2246.JPG") no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    text-transform: uppercase;
+    width: 100%;
+    height: 50vh;
+    position: relative;
+}
+
+.gradient p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#para p{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 40px;
+    color: #333333;
+    margin: 20px 10px;
+}
+
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.a{
+    background: url("images/IMG_2164.JPG") no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    transition: 1s linear;
+}
+
+.a:hover{
+    opacity: .8;
+    height: 200px;
+}
+
+.b{
+    background: url("images/IMG_0417.JPG") no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    transition: 1s linear;
+}
+
+.b:hover{
+    opacity: .9;
+    height: 200px;
+}
+
+.d{
+    background: url("images/IMG_1403.JPG") no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    transition: 1s linear;
+}
+
+.d:hover{
+    opacity: .8;
+    height: 200px;
+}
+
+.e{
+    background: url("images/IMG_0505.JPG") no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    opacity: .8;
+    transition: 1s linear;
+}
+
+.e:hover{
+    opacity: .8;
+    height: 200px;
+}
+
+.f{
+    background: url("images/IMG_0052.JPG") no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    transition: 1s linear;
+}
+
+.f:hover{
+    opacity: .8;
+    height: 200px;
+}
+
+.g{
+    background: url("images/IMG_1747.JPG") no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    transition: 1s linear;
+}
+
+.g:hover{
+    opacity: .8;
+    height: 200px;
+}
+
+.h{
+    background: url("images/IMG_3236.JPG") no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    transition: 1s linear;
+}
+
+.h:hover{
+    opacity: .8;
+    height: 200px;
+}
+
+.i{
+    background: url("images/IMG_2219.JPG") no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    transition: 1s linear;
+}
+
+.i:hover{
+    opacity: .8;
+    height: 200px;
+}
+
+.j{
+    background: url("images/IMG_0059.JPG") no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    transition: 1s linear;
+}
+
+.j:hover{
+    opacity: .8;
+    height: 200px;
+}
+
+.k{
+    background: url("images/IMG_2438.JPG") no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    transition: 1s linear;
+}
+
+.k:hover{
+    opacity: .8;
+    height: 200px;
+}
+
+.l{
+    background: url("images/IMG_2308.JPG") no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    transition: 1s linear;
+}
+
+.l:hover{
+    opacity: .8;
+    height: 200px;
+}
+
+.m{
+    background: url("images/IMG_1898.JPG") no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    transition: 1s linear;
+}
+
+.m:hover{
+    opacity: .8;
+    height: 200px;
+}
+
+.container span{
+    display: block;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.gallery{
+    border: 1px solid #c4c4c4;
+    border-radius: 3px;
+    width: 400px;
+    height: 400px;
+    margin: 30px;
+    overflow: hidden;
+    position: relative;
+}
+
+.gallery span{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.gallery button{
+    background-color: #999999;
+    padding: 5px 20px;
+    display: block;
+    border: none;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 5px;
+    margin: 0 42%;
+}
+
+.gallery button:hover{
+    background-color: #c4c4c4;
+    transition: 0.5s linear;
+}
+
+#load{
+    width: 50px;
+    display: none;
+}
+
+.loads{
+    background: red;
+    height: 5px;
+    margin: 5px 0;
+}
+
+.x{
+    width: 100%;
+}
+
+.y{
+    width: 80%;
+    transition: 0.4s linear;
+}
+
+.z{
+    width: 100%;
+}
+
+#load:hover > .y{
+    width: 100%;
+}
+
+@media screen and (max-width: 900px){
+    .select {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 100%;
+        right: 0;
+        width: 100%;
+        display: none;
+    }
+    
+    .wrapper ul ul li{
+        list-style: none;
+        font-size: 20px;
+        cursor: pointer;
+        display: none;
+    }
+
+    .wrapper ul li {
+        width: 100%;
+        font-size: 30px;
+        height: 30px;
+    }
+
+    #load {
+        display: block;
+        position: absolute;
+        right: 10px;
+    }
+}
