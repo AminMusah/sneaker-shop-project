@@ -320,15 +320,19 @@ p{
     width: 100%;
 }
 
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
 @media screen and (max-width: 900px){
     .select {
-        display: flex;
+        display: none;
         flex-direction: column;
         position: absolute;
         top: 100%;
         right: 0;
         width: 100%;
-        display: none;
     }
     
     .wrapper ul ul li{
